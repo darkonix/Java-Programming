@@ -2,39 +2,39 @@ import java.lang.*;
 
 public class Book
 {
-  private String author;
+  private String name;
   private int pages;
   public Book (String n, int a)
   {
-    author = n;
+    name = n;
     pages = a;
   }
 
   public Book (String n)
   {
-    author = n;
+    name = n;
     pages = 0;
   }
 
   public Book ()
   {
-    author = "unknown";
+    name = "unknown";
     pages = 0;
   }
 
-  public void setPages (int number)
+  public void setPages (int pages)
   {
     this.pages = pages;
   }
 
-  public void setAuthor (String author)
+  public void setName (String name)
   {
-    this.author = author;
+    this.name = name;
   }
 
-  public String getAuthor (String author)
+  public String getName (String name)
   {
-    return author;
+    return name;
   }
 
   public int getPages ()
@@ -44,6 +44,6 @@ public class Book
 
   public String toString ()
   {
-    return this.author + ", pages " + this.pages;
+    return this.name + ", pages " + this.pages;
   }
 }
