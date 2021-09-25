@@ -1,7 +1,7 @@
 import java.lang.*;
 
  
-public class Nursery
+public class Gym
 {
   
 public static void main (String[]args)
