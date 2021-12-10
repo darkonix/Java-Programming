@@ -1,4 +1,4 @@
-package Tkachenko.Lab22;
+package Tkachenko.Lab31;
 
 import javax.swing.*;
 
